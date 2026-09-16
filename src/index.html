@@ -1,11 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meridian — Travel Landing Page</title>
+    <!-- Meta Tags -->
+    <meta name="description"
+        content="Discover the best travel deals and destinations with Meridian. Plan your next adventure with our expertly curated travel experiences.">
+    <meta name="keywords"
+        content="Meridian, travel landing page, travel deals, travel destinations, travel experiences, adventure planning, travel agency, vacation packages, travel tips, travel inspiration">
+    <!-- <link rel="icon" href="./assets/images/" type="image/x-icon"> -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="Meridian — Travel Landing Page">
+    <meta property="og:description"
+        content="Discover the best travel deals and destinations with Meridian. Plan your next adventure with our expertly curated travel experiences.">
+    <meta property="og:image" content="">
+
+    <script type="module" src="./js/main.js"></script>
+
 </head>
+
 <body>
-    hiiiii
+    <nav class="navbar navbar-expand-lg bg-light border-top border-bottom sticky-top z-3"
+        style="background: rgba(250, 246, 236, .88);">
+        <div class="container px-5">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold fs-2" href="#">
+                Meridian
+                <span class="text-clay">•</span>
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <!-- Center Links -->
+                <ul class="navbar-nav mx-auto gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium text-ink-soft" href="#">
+                            Destinations
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium text-ink-soft" href="#">
+                            Packages
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium text-ink-soft" href="#">
+                            Stories
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium text-ink-soft" href="#">
+                            About
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Right Side -->
+                <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-3 gap-lg-4">
+
+                    <span class="text-ink-soft">
+                        +1 (415) 022 9981
+                    </span>
+
+                    <button class="btn btn-dark btn-ink rounded-pill px-4 py-3 fw-semibold">
+                        Plan a trip
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <main class="bg-pine">
+
+        <section class="text-light min-vh-100 overflow-hidden bg-pine text-paper">
+            <div class="container px-5">
+                <div class="row align-items-center min-vh-100 py-5">
+
+                    <!-- LEFT SIDE -->
+                    <div class="col-lg-7">
+                        <div class="d-flex align-items-center gap-2
+                                         fw-semibold small mb-4 text-sage">
+                            <span class="border-top border-sage" style="width: 1.8rem;"></span>
+
+                            TRIPS BUILT AROUND YOU
+                        </div>
+                        <h1 class="display-1 fw-normal lh-1 mb-4 text-paper">
+                            Travel that follows
+                            <span class="fst-italic text-sage">your</span>
+                            line on the map, not everyone else's.
+                        </h1>
+
+                        <p class="fs-5 lh-base w-75 mb-5 text-sage-2">
+                            Meridian pairs span you with local guides and small-group
+                            routes across 40 countries — no queues, no filler
+                            days, no itinerary you didn't ask for.
+                        </p>
+
+                        <!-- Buttons -->
+                        <div class="d-flex gap-3 mb-5">
+                            <a href="#" class="btn btn-clay rounded-pill px-4 py-3 fw-bold border-0 text-white">
+                                Start planning
+                            </a>
+
+                            <a href="#" class="btn btn-normal btn-outline-line rounded-pill px-4 py-3 fw-bold">
+                                See packages
+                            </a>
+                        </div>
+
+                        <hr class="border-secondary">
+
+                        <!-- Statistics -->
+                        <div class="row mt-4">
+
+                            <div class="col-4">
+                                <h3 class="display-6 fw-normal">184</h3>
+                                <p class="text-gray mb-0 text-sage-3">
+                                    Guided routes
+                                </p>
+                            </div>
+
+                            <div class="col-4">
+                                <h3 class="display-6 fw-normal">42k</h3>
+                                <p class="text-gray mb-0 text-sage-3">
+                                    Travelers hosted
+                                </p>
+                            </div>
+
+                            <div class="col-4">
+                                <h3 class="display-6 fw-normal">4.9</h3>
+                                <p class="text-gray mb-0 text-sage-3">
+                                    Average rating
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- RIGHT SIDE -->
+                    <div class="col-lg-5 mt-5 mt-lg-0">
+
+                        <div class="position-relative">
+
+                            <!-- Large Image -->
+                            <div class="position-absolute bottom-0 start-0
+                                        translate-middle-y
+                                        ratio ratio-4x3 w-50">
+                                <img src="./images/mountain.png" class="img-fluid object-fit-cover rounded-4"
+                                    alt="Road">
+                            </div>
+
+                            <!-- Small Image -->
+                            <div class="position-absolute bottom-5 start-2 
+                                        translate-middle-y
+                                        ratio ratio-4x3 w-50">
+                                <img src="./images/road.png" class="img-fluid object-fit-cover rounded-4" alt="Road">
+                            </div>
+
+
+                            <!-- Trip Card -->
+                            <div class="position-absolute top-50 start-0 
+                                        translate-middle
+                                        bg-light text-dark
+                                        rounded-4 shadow
+                                        p-4 w-50">
+
+                                <div class="d-flex align-items-center gap-3">
+
+                                    <div class="bg-warning text-white
+                                                rounded-circle
+                                                d-flex align-items-center
+                                                justify-content-center
+                                                flex-shrink-0" style="width: 2.5rem; height: 2.5rem;">
+                                        ✓
+                                    </div>
+
+                                    <div>
+                                        <h6 class="fw-bold mb-2">
+                                            Trip confirmed
+                                        </h6>
+
+                                        <p class="mb-0 small lh-lg">
+                                            Kyoto, 6 days —<br>
+                                            guide assigned
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="text-light bg-pine">
+
+        <div class="container py-5 px-5">
+
+            <!-- Top Footer -->
+            <div class="row pt-4 pb-5">
+
+                <!-- Brand / Description -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-4" style="font-family: Georgia, serif;">
+                        Meridian
+                    </h2>
+
+                    <p class=" mb-0 pe-lg-5 text-sage-3">
+                        Small-group, guide-led travel across 40 countries.
+                        Planned with someone who's actually been there.
+                    </p>
+                </div>
+
+
+                <!-- Explore -->
+                <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                    <h6 class="fw-bold mb-4">
+                        Explore
+                    </h6>
+
+                    <ul class="list-unstyled text-sage-3">
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Destinations
+                            </a>
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Packages
+                            </a>
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Traveler stories
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-decoration-none">
+                                Become a guide
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Company -->
+                <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                    <h6 class="fw-bold mb-4">
+                        Company
+                    </h6>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                About Meridian
+                            </a>
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Careers
+                            </a>
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Press
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-decoration-none">
+                                Sustainability
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- Support -->
+                <div class="col-6 col-lg-2">
+                    <h6 class="fw-bold mb-4">
+                        Support
+                    </h6>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Help center
+                            </a>
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Cancellations
+                            </a>
+                        </li>
+
+                        <li class="mb-3">
+                            <a href="#" class="text-decoration-none">
+                                Trip insurance
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-decoration-none">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <!-- Divider -->
+            <hr class="border-secondary opacity-25">
+
+
+            <!-- Bottom Footer -->
+            <div class="d-flex flex-column flex-md-row
+                    justify-content-between
+                    align-items-md-center
+                    gap-4 pt-4 text-sage-3">
+
+                <!-- Copyright -->
+                <p class=" mb-0">
+                    © 2026 Meridian Travel Co. All rights reserved.
+                </p>
+
+
+                <!-- Social Icons -->
+                <div class="d-flex gap-3">
+
+                    <a href="#" class="text-light text-decoration-none
+                      border border-secondary rounded-circle
+                      d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
+                        in
+                    </a>
+
+                    <a href="#" class="text-light text-decoration-none
+                      border border-secondary rounded-circle
+                      d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
+                        ig
+                    </a>
+
+                    <a href="#" class="text-light text-decoration-none
+                      border border-secondary rounded-circle
+                      d-flex align-items-center justify-content-center" style="width: 44px; height: 44px;">
+                        x
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
 </body>
+
 </html>

@@ -1,3 +1,69 @@
+:root{
+    --pine: #122A26;
+    --pine-2: #0D211D;
+    --paper: #FAF6EC;
+    --paper-2: #F1EADA;
+    --clay: #C77B3F;
+    --clay-dark: #A85F2C;
+    --sage: #7C9A82;
+    --sage-2: #C9D3CC;
+    --sage-3: #9FAFA6;
+    --ink: #1B1B16;
+    --ink-soft: #4B4B42;
+    --line: #E8DFC9;
+    --white: #FFFFFF;
+}
+// Configuration
+@import "bootstrap/scss/functions";
+
+// Bootstrap variables
+@import "bootstrap/scss/variables";
+
+// Custom Colors
+$custom-colors: (
+    "pine": #122A26,
+    "pine-2": #0D211D,
+    "paper": #FAF6EC,
+    "paper-2": #F1EADA,
+    "clay": #C77B3F,
+    "clay-dark": #A85F2C,
+    "sage": #7C9A82,
+    "sage-2": #C9D3CC,
+    "sage-3": #9FAFA6,
+    "ink": #1B1B16,
+    "ink-soft": #4B4B42,
+    "line": #E8DFC9,
+    "white": #FFFFFF
+);
+
+
+// Merge with Bootstrap colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+.btn-ink:hover {
+    transform: translateY(-2px);
+}
+
+.btn-clay {
+    // transition: transform .18s ease, box-shadow .18s ease;
+    background: var(--clay);
+    color: var(--white);
+}
+
+.btn-clay:hover {
+transform: translateY(-2px);
+box-shadow: 0 12px 26px rgba(199, 123, 63, .45);
+}
+
+.btn-normal:hover {
+    transform: translateY(-2px);
+    background: none;
+    color: none;
+}
+
+footer .list-unstyled a {
+    color: var(--sage-3);
+}
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
 
